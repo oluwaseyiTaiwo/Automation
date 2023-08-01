@@ -1,0 +1,11 @@
+This is intended to pull ht 2g,3g and 4g vpn instances we have on Huawei router on the network 
+
+Input Router "IP_ADDRESS" and "NAME" in the Pull_2G_3G_OAM_IP_HUAWEI.csv file provided
+if Pull_2G_3G_OAM_IP_HUAWEI.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and Router name "Name."
+
+To run the script, enter into the directory of the Pull_2G_3G_OAM_IP_HUAWEI.py file on CMD (Command Prompt)
+type " python Pull_2G_3G_OAM_IP_HUAWEI.py " to run the script
+next, drag and drop CSV file containing the IP Address and ROuter name
+
+

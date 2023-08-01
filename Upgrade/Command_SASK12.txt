@@ -1,0 +1,93 @@
+environment more
+environment time-stamp
+file dir cf1:
+show time
+show version
+show users
+show card
+show card state
+show card detail
+show card detail | match alarm
+show card detail | match Pchip ignore-case
+show card detail | match errors ignore-case
+show card detail | match failure ignore-case
+show mda
+show mda detail
+show mda detail | match alarm
+show mda detail | match Pchip ignore-case
+show mda detail | match errors ignore-case
+show mda detail | match failure ignore-case
+show chassis
+admin save
+file version check cf1:\boot.tim
+file dir cf1:\TiMOS-B-20.9.R2
+file version check cf1:\TiMOS-B-20.9.R2\boot.tim
+file version check cf1:\TiMOS-B-20.9.R2\both.tim
+file dir cf1: | match free
+show debug
+environment no more
+echo Pre-checks
+show bof
+file type bof.cfg
+show version
+show system information
+show port
+show lag
+show lag detail
+show lag description
+show system cpu
+show system memory-pools
+show router status
+show router interface
+show router bgp summary
+show router bgp neighbor
+show router isis status
+show router isis interface
+show router isis adjacency
+show router ospf neighbor
+show router ospf interface
+show router route-table summary
+show router bfd session
+show router mpls status
+show router mpls interface
+show router mpls path
+show router mpls lsp
+show router mpls lsp path
+show router mpls lsp status down
+show router mpls bypass-tunnel
+show router rsvp interface
+show router rsvp session
+show router ldp interface
+show router ldp status
+show router ldp binding
+show router ldp session
+show router ldp peer
+show router ldp targ-peer
+show service fdb-info
+show service fdb-mac
+show router arp
+show service sdp
+show service sdp-using
+show service service-using
+show service sap-using
+tools dump system-resources
+show service fdb-mac
+admin display-config
+echo pre_Upgrade-service_checks
+show service service-using
+show router 40001 interface
+show router 40201 interface
+show router 40701 interface
+show router 40801 interface
+show router 40001 route-table summary
+show router 40201 route-table summary
+show router 40701 route-table summary
+show router 40801 route-table summary
+show router 40201 arp
+show router 40801 arp
+show router 40001 arp
+show router 40701 arp
+show router 40001 arp | match "No"
+show router 40201 arp | match "No"
+show router 40701 arp | match "No"
+show router 40801 arp | match "No"

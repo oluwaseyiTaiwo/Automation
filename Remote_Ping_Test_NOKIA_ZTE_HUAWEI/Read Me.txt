@@ -1,0 +1,11 @@
+This script is intended for pinging Nokia, ZTE and Huawei routers to determine reachability. 
+
+
+Input Router "IP_ADDRESS" and "NAME" in the Remote_Ping_Test_NOKIA_ZTE_HUAWEI.csv file provided
+if Remote_Ping_Test_NOKIA_ZTE_HUAWEI.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and the column for the Router name "Name."
+
+To run the script, enter into the directory of the Remote_Ping_Test_NOKIA_ZTE_HUAWEI.py file on CMD (Command Prompt)
+type " python Remote_Ping_Test_NOKIA_ZTE_HUAWEI.py " to run the script
+next, drag and drop the CSV file containing the IP Address and ROuter name
+

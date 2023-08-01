@@ -1,0 +1,1 @@
+This script is intended for pinging Nokia, ZTE and Huawei routers to determine reachability. 

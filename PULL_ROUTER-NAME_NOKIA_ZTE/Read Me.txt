@@ -1,0 +1,10 @@
+This Python script is to pull the configured router name of ZTE and Nokia router on the netrork.
+
+Input Router "IP_ADDRESS" and "NAME" in the PULL_ROUTER-NAME_NOKIA_ZTE.csv file provided
+if PULL_ROUTER-NAME_NOKIA_ZTE.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and the column for the Router name "Name."
+
+To run the script, enter into the directory of the PULL_ROUTER-NAME_NOKIA_ZTE.py file on CMD (Command Prompt)
+type " python PULL_ROUTER-NAME_NOKIA_ZTE.py " to run the script
+next, drag and drop the CSV file containing IP Address and ROuter name
+

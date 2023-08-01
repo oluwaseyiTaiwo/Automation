@@ -1,0 +1,10 @@
+his script is intended for periodically creating session files for router access.
+
+Do not delete the "Result" Folder.
+If the "Result" folder has been deleted, create a new folder named "Result" *Capital R* where the  SESSION.py file is.
+
+To run the script, enter into the directory of the SESSION.py file on CMD (Command Prompt)
+type " python SESSION.py " to run the script
+next, drag and drop the CSV file containing IP Address and Router name for each router type, as requested by the prompts
+
+When the script is done running, your output will be found in Result Folder

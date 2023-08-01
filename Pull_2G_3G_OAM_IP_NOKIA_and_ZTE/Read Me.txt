@@ -1,0 +1,12 @@
+
+This is intended to pull ht 2g,3g and 4g vpn instances we have on nokia , zte  router on the network 
+
+Input Router "IP_ADDRESS" and "NAME" in the Pull_2G_3G_OAM_IP_NOKIA_and_ZTE.csv file provided
+if Pull_2G_3G_OAM_IP_NOKIA_and_ZTE.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and Router name "Name."
+
+To run the script, enter into the directory of the Pull_2G_3G_OAM_IP_NOKIA_and_ZTE.py file on CMD (Command Prompt)
+type " python Pull_2G_3G_OAM_IP_NOKIA_and_ZTE.py " to run the script
+next, drag and drop CSV file containing the IP Address and ROuter name
+
+

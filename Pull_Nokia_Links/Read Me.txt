@@ -1,0 +1,10 @@
+This script is intended to scrape the network  link on each router. 
+
+Input Router "IP_ADDRESS" and "NAME" in the Push_Config_Based_On_AS.csv file provided
+if Push_Config_Based_On_AS.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and the column for Router name "Name"
+
+To run the script, enter into the directory of the Push_Config_to_All.py file on CMD (Command Prompt)
+type " python Pull_Nokia_Links.py " to run the script
+next, drag and drop CSV file containing the IP Address and ROuter name
+

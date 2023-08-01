@@ -1,0 +1,10 @@
+his Python script is to push batch router configuration based on router AS regions. 
+
+
+Input Router "IP_ADDRESS" and "NAME" in the Push_Config_Based_On_AS.csv file provided
+if Push_Config_Based_On_AS.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and Router name "Name."
+
+To run the script, enter into the directory of the Push_Config_to_All.py file on CMD (Command Prompt)
+type " python Push_Config_to_All.py " to run the script
+next, drag and drop the CSV file containing IP Address and Router name

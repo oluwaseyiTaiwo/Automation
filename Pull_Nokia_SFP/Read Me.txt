@@ -1,0 +1,11 @@
+
+
+Input Router "IP_ADDRESS" and "NAME" in the Pull_Nokia_SFP.csv file provided
+if Pull_Nokia_SFP.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and column for Router name "Name"
+
+To run the script enter into the directry of the Pull_Nokia_SFP.py file on CMD (Command Prompt)
+type " python Pull_Nokia_SFP.py " to run the script
+next drag and drop CSV fiel contaning IP Address and ROuter name
+
+

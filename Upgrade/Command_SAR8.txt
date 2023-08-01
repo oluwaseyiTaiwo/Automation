@@ -1,0 +1,101 @@
+environment more
+environment time-stamp
+show time
+show version
+show users
+show card
+show card state
+show card detail
+show chassis
+admin save
+file dir cf3-a:\
+file dir cf3-b:\
+file version check cf3-b:\boot.ldr
+file version check cf3-a:\boot.ldr
+file dir cf3:\TiMOS-B-20.10.R1
+file version check cf3:\TiMOS-B-20.10.R1\boot.ldr
+file version check cf3:\TiMOS-B-20.10.R1\both.tim
+file version check cf3:\TiMOS-B-20.10.R1\support.tim
+show router 40001 interface
+show router 40201 interface
+show router 40701 interface
+show router 40801 interface
+show router 40001 route-table summary
+show router 40201 route-table summary
+show router 40701 route-table summary
+show router 40801 route-table summary
+show router 40201 arp
+show router 40801 arp
+show router 40001 arp
+show router 40701 arp
+show router 40001 arp | match No
+show router 40201 arp | match No
+show router 40701 arp | match No
+show router 40801 arp | match No
+show card "a" detail
+show card "b" detail
+show card detail | match alarm
+show card detail | match Pchip ignore-case
+show card detail | match errors ignore-case
+show card detail | match failure ignore-case
+show mda
+show mda detail
+show mda detail | match alarm
+show mda detail | match Pchip ignore-case
+show mda detail | match errors ignore-case
+show mda detail | match failure ignore-case
+admin tech-support cf3:\TS_PreUpgrade_1st.bin
+show debug
+environment no more
+echo Pre-checks
+show bof
+show bof cf3-a:
+show bof cf3-b:
+file type bof.cfg
+show version
+show system information
+show port
+show lag
+show lag detail
+show lag description
+show system cpu
+show system memory-pools
+show router status
+show router interface
+show router bgp summary
+show router bgp neighbor
+show router isis status
+show router isis interface
+show router isis adjacency
+show router ospf neighbor
+show router ospf interface
+show router route-table summary
+show router bfd session
+show router mpls status
+show router mpls interface
+show router mpls path
+show router mpls lsp
+show router mpls lsp path
+show router mpls lsp status down
+show router mpls bypass-tunnel
+show router rsvp interface
+show router rsvp session
+show router ldp interface
+show router ldp status
+show router ldp binding
+show router ldp session
+show router ldp peer
+show router ldp targ-peer
+show service fdb-info
+show service fdb-mac
+show router arp
+show service sdp
+show service sdp-using
+show service service-using
+show service sap-using
+tools dump system-resources
+show service fdb-mac
+admin display-config
+echo pre_Upgrade-service_checks
+show service service-using
+admin tech-support cf3:\TS_PreUpgrade_2nd.bin

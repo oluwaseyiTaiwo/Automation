@@ -1,0 +1,14 @@
+This Python script is to push batch router configuration to all nokia routers. 
+
+Do not delete the "Result" Folder.
+If the "Result" folder has been deleted, create a new folder named "Result" *Capital R* where the  Push_Config_to_All.py file is.
+
+Input Router "IP_ADDRESS" and "NAME" in the Push_Config_For_All.csv file provided
+if Push_Config_For_All.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and the column for the Router name "Name."
+
+To run the script, enter into the directory of the Push_Config_to_All.py file on CMD (Command Prompt)
+type " python Push_Config_to_All.py " to run the script
+next, drag and drop the CSV file containing IP Address and ROuter name
+
+When the script is done running, your output will be found in Result Folder.

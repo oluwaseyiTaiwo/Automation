@@ -1,0 +1,11 @@
+This scrpit is intended to collect AS vlaue of each route in an effort to group them by region.
+
+Input Router "IP_ADDRESS" and "NAME" in the Get_AS_VALUE_NOKIA_ZTE.csv file provided
+if Get_AS_VALUE_NOKIA_ZTE.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and column for Router name "Name"
+
+To run the script enter into the directry of the Get_AS_VALUE_NOKIA_ZTE.py file on CMD (Command Prompt)
+type " python Get_AS_VALUE_NOKIA_ZTE.py " to run the script
+next drag and drop CSV fiel contaning IP Address and ROuter name
+
+

@@ -1,0 +1,11 @@
+
+
+Input Router "IP_ADDRESS" and "NAME" in the Generate_RX_REPORT.csv file provided
+if Generate_RX_REPORT.csv is deleted, create a new "CSV" file
+name the column for ip address "Site ID" and column for Router name "Name"
+
+To run the script enter into the directry of the Generate_RX_REPORT.py file on CMD (Command Prompt)
+type " python Generate_RX_REPORT.py " to run the script
+next drag and drop CSV fiel contaning IP Address and ROuter name
+
+
